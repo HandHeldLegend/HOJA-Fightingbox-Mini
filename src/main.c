@@ -1,6 +1,4 @@
 #include "hoja_includes.h"
-#include "app_rumble.h"
-#include "app_imu.h"
 #include "main.h"
 
 
@@ -35,6 +33,12 @@ void cb_hoja_hardware_setup()
     hoja_setup_gpio_button(PGPIO_BTN_Y);
 
     hoja_setup_gpio_button(PGPIO_BTN_START);
+    hoja_setup_gpio_button(PGPIO_BTN_SELECT);
+    hoja_setup_gpio_button(PGPIO_BTN_HOME);
+    hoja_setup_gpio_button(PGPIO_BTN_CAPTURE);
+
+    hoja_setup_gpio_button(PGPIO_BTN_TURBO);
+
     hoja_setup_gpio_button(PGPIO_BTN_L);
     hoja_setup_gpio_button(PGPIO_BTN_R);
     hoja_setup_gpio_button(PGPIO_BTN_ZL);
@@ -45,25 +49,8 @@ void cb_hoja_hardware_setup()
     hoja_setup_gpio_button(PGPIO_BTN_DLEFT);
     hoja_setup_gpio_button(PGPIO_BTN_DRIGHT);
 
-    //hoja_setup_gpio_button(PGPIO_BTN_STICKL);
-    //hoja_setup_gpio_button(PGPIO_BTN_STICKR);
-
-    // initialize SPI at 1 MHz
-    // initialize SPI at 3 MHz just to test
-    spi_init(spi0, 3000 * 1000);
-    gpio_set_function(PGPIO_SPI_CLK, GPIO_FUNC_SPI);
-    gpio_set_function(PGPIO_SPI_TX, GPIO_FUNC_SPI);
-    gpio_set_function(PGPIO_SPI_RX, GPIO_FUNC_SPI);
-
-    // Left stick initialize
-    gpio_init(PGPIO_LS_CS);
-    gpio_set_dir(PGPIO_LS_CS, GPIO_OUT);
-    gpio_put(PGPIO_LS_CS, true); // active low
-
-    // Right stick initialize
-    gpio_init(PGPIO_RS_CS);
-    gpio_set_dir(PGPIO_RS_CS, GPIO_OUT);
-    gpio_put(PGPIO_RS_CS, true); // active low
+    hoja_setup_gpio_button(PGPIO_BTN_STICKL);
+    hoja_setup_gpio_button(PGPIO_BTN_STICKR);
 }
 
 int lt_offset = 0;
@@ -84,65 +71,29 @@ void cb_hoja_read_buttons(button_data_s *data)
     data->dpad_up       = !gpio_get(PGPIO_BTN_DUP);
 
     data->button_plus   = !gpio_get(PGPIO_BTN_START);
+    data->button_minus = !gpio_get(PGPIO_BTN_SELECT);
+    data->button_home = !gpio_get(PGPIO_BTN_HOME);
+    data->button_capture = !gpio_get(PGPIO_BTN_CAPTURE);
 
-    // Broken on boards? lol oops
-    //data->button_stick_left = !gpio_get(PGPIO_BTN_STICKL);
-    //data->button_stick_right = !gpio_get(PGPIO_BTN_STICKR);
+    data->button_stick_left = !gpio_get(PGPIO_BTN_STICKL);
+    data->button_stick_right = !gpio_get(PGPIO_BTN_STICKR);
 
     data->trigger_r     = !gpio_get(PGPIO_BTN_ZR);
     data->trigger_l     = !gpio_get(PGPIO_BTN_ZL);
     data->trigger_zl    = !gpio_get(PGPIO_BTN_L);
     data->trigger_zr    = !gpio_get(PGPIO_BTN_R);
 
-    data->button_unbind = data->button_plus;
-    // data->button_safemode = !gpio_get(PGPIO_BUTTON_MODE);
+    data->button_unbind = !gpio_get(PGPIO_BTN_TURBO);
+    data->button_safemode = data->button_unbind;
 }
 
 void cb_hoja_read_analog(a_data_s *data)
 {
-    // Set up buffers for each axis
-    uint8_t buffer_lx[3] = {0};
-    uint8_t buffer_ly[3] = {0};
-    uint8_t buffer_rx[3] = {0};
-    uint8_t buffer_ry[3] = {0};
-
-    // CS left stick ADC
-    gpio_put(PGPIO_LS_CS, false);
-    // Read first axis for left stick
-    spi_read_blocking(spi0, X_AXIS_CONFIG, buffer_lx, 3);
-
-    // CS left stick ADC reset
-    gpio_put(PGPIO_LS_CS, true);
-    gpio_put(PGPIO_LS_CS, false);
-
-    // Set up and read axis for left stick Y  axis
-    spi_read_blocking(spi0, Y_AXIS_CONFIG, buffer_ly, 3);
-
-    // CS right stick ADC
-    gpio_put(PGPIO_LS_CS, true);
-    gpio_put(PGPIO_RS_CS, false);
-
-    spi_read_blocking(spi0, Y_AXIS_CONFIG, buffer_ry, 3);
-
-    // CS right stick ADC reset
-    gpio_put(PGPIO_RS_CS, true);
-    gpio_put(PGPIO_RS_CS, false);
-
-    spi_read_blocking(spi0, X_AXIS_CONFIG, buffer_rx, 3);
-
-    // Release right stick CS ADC
-    gpio_put(PGPIO_RS_CS, true);
-
-    // Convert data
-    data->lx = BUFFER_TO_UINT16(buffer_lx);
-    data->ly = BUFFER_TO_UINT16(buffer_ly);
-    data->rx = BUFFER_TO_UINT16(buffer_rx);
-    data->ry = BUFFER_TO_UINT16(buffer_ry);
-}
-
-void cb_hoja_task_1_hook(uint32_t timestamp)
-{
-    app_rumble_task(timestamp);
+    // Default data
+    data->lx = 2048;
+    data->ly = 2048;
+    data->rx = 2048;
+    data->ry = 2048;
 }
 
 int main()
@@ -150,7 +101,7 @@ int main()
     stdio_init_all();
     sleep_ms(100);
 
-    printf("Thingamapro Started.\n");
+    printf("Fightingbox Mini Started.\n");
 
     hoja_setup_gpio_button(PGPIO_BTN_START);
     // Handle bootloader stuff

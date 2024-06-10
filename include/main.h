@@ -1,41 +1,27 @@
-#define X_AXIS_CONFIG 0xD0
-#define Y_AXIS_CONFIG 0xF0
-#define BUFFER_TO_UINT16(buffer) (uint16_t)(((buffer[0] & 0x07) << 9) | buffer[1] << 1 | buffer[2] >> 7)
-#define UINT16_INVERT(val) (uint16_t)(0xFFFF-(val))
+#define PGPIO_BTN_A    1
+#define PGPIO_BTN_B    2
+#define PGPIO_BTN_X    3
+#define PGPIO_BTN_Y    4
 
-#define PGPIO_BTN_A    17
-#define PGPIO_BTN_B    16
-#define PGPIO_BTN_X    18
-#define PGPIO_BTN_Y    19
+#define PGPIO_BTN_START   12
+#define PGPIO_BTN_SELECT  10
+#define PGPIO_BTN_HOME    11
+#define PGPIO_BTN_CAPTURE 17
 
-#define PGPIO_BTN_START 5
-#define PGPIO_BTN_L   13
-#define PGPIO_BTN_R   21
-#define PGPIO_BTN_ZL  12
-#define PGPIO_BTN_ZR  20
+#define PGPIO_BTN_TURBO   18
 
-#define PGPIO_BTN_DUP     9
-#define PGPIO_BTN_DDOWN   10
-#define PGPIO_BTN_DLEFT   8
-#define PGPIO_BTN_DRIGHT  11
+#define PGPIO_BTN_L   5
+#define PGPIO_BTN_R   6
+#define PGPIO_BTN_ZL  7
+#define PGPIO_BTN_ZR  8
 
-#define PGPIO_BTN_STICKR 15
-#define PGPIO_BTN_STICKL 12
+#define PGPIO_BTN_DUP     29
+#define PGPIO_BTN_DDOWN   27
+#define PGPIO_BTN_DLEFT   28
+#define PGPIO_BTN_DRIGHT  26
 
-#define PGPIO_RUMBLE_MAIN   25
-#define PGPIO_RUMBLE_BRAKE  29
+#define PGPIO_BTN_STICKR 13
+#define PGPIO_BTN_STICKL 9
 
-// SPI ADC CLK pin
-  #define PGPIO_SPI_CLK 6
-  // SPI ADC TX pin
-  #define PGPIO_SPI_TX  7
-  // SPI ADC RX pin
-  #define PGPIO_SPI_RX  4
-
-  // Left stick ADC Chip Select
-  #define PGPIO_LS_CS   24
-  // Right stick ADC Chip Select
-  #define PGPIO_RS_CS   23
-
-  //#define PGPIO_IMU0_CS 28
-  //#define PGPIO_IMU1_CS 29
+#define PGPIO_I2C_SDA 14
+#define PGPIO_I2C_SCL 15

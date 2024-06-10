@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 include($ENV{PICO_SDK_PATH}/pico_sdk_init.cmake)
 
-project(THINGAMAPRO_RP2040 C CXX ASM)
+project(FIGHTINGBOX_MINI_RP2040 C CXX ASM)
 
 pico_sdk_init()
 
@@ -18,14 +18,11 @@ include_directories(
 
 add_executable(${PROJECT_NAME}
 	src/main.c
-	src/app_rumble.c 
 )
 
 target_compile_definitions(${PROJECT_NAME}
 	PRIVATE
 	PICO_XOSC_STARTUP_DELAY_MULTIPLIER=64
-	PICO_DEFAULT_UART_TX_PIN=12
-	PICO_DEFAULT_UART_RX_PIN=13
 	#PICO_DEFAULT_BOOT_STAGE2=boot2_generic_03h
 	#PICO_FLASH_SPI_CLKDIV=8
 	)
