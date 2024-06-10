@@ -44,19 +44,22 @@
 
 #define HOJA_RGB_GROUP_RS       {-1}
 #define HOJA_RGB_GROUP_LS       {-1}
-#define HOJA_RGB_GROUP_DPAD     {0,1,2,3}
+#define HOJA_RGB_GROUP_DPAD     {8,9,10,11}
 #define HOJA_RGB_GROUP_MINUS    {-1}
 #define HOJA_RGB_GROUP_CAPTURE  {-1}
 #define HOJA_RGB_GROUP_HOME     {-1}
 #define HOJA_RGB_GROUP_PLUS     {-1}
-#define HOJA_RGB_GROUP_Y        {7}
-#define HOJA_RGB_GROUP_X        {6}
-#define HOJA_RGB_GROUP_A        {4}
-#define HOJA_RGB_GROUP_B        {5}
-#define HOJA_RGB_GROUP_L        {8}
-#define HOJA_RGB_GROUP_R        {9}
-#define HOJA_RGB_GROUP_ZR       {10}
-#define HOJA_RGB_GROUP_ZL       {11}
+
+#define HOJA_RGB_GROUP_Y        {1}
+#define HOJA_RGB_GROUP_X        {0}
+#define HOJA_RGB_GROUP_A        {7}
+#define HOJA_RGB_GROUP_B        {6}
+
+#define HOJA_RGB_GROUP_L        {3}
+#define HOJA_RGB_GROUP_R        {2}
+
+#define HOJA_RGB_GROUP_ZR       {5}
+#define HOJA_RGB_GROUP_ZL       {4}
 #define HOJA_RGB_GROUP_PLAYER   {-1}
 
 #endif

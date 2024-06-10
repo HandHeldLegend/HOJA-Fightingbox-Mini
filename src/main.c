@@ -13,10 +13,10 @@ button_remap_s user_map = {
     .button_x = MAPCODE_B_X,
     .button_y = MAPCODE_B_Y,
 
-    .trigger_l = MAPCODE_T_ZL,
-    .trigger_r = MAPCODE_T_ZR,
-    .trigger_zl = MAPCODE_T_L,
-    .trigger_zr = MAPCODE_T_R,
+    .trigger_l = MAPCODE_T_L,
+    .trigger_r = MAPCODE_T_R,
+    .trigger_zl = MAPCODE_T_ZL,
+    .trigger_zr = MAPCODE_T_ZR,
 
     .button_plus = MAPCODE_B_PLUS,
     .button_minus = MAPCODE_B_MINUS,
@@ -78,10 +78,10 @@ void cb_hoja_read_buttons(button_data_s *data)
     data->button_stick_left = !gpio_get(PGPIO_BTN_STICKL);
     data->button_stick_right = !gpio_get(PGPIO_BTN_STICKR);
 
-    data->trigger_r     = !gpio_get(PGPIO_BTN_ZR);
-    data->trigger_l     = !gpio_get(PGPIO_BTN_ZL);
-    data->trigger_zl    = !gpio_get(PGPIO_BTN_L);
-    data->trigger_zr    = !gpio_get(PGPIO_BTN_R);
+    data->trigger_r     = !gpio_get(PGPIO_BTN_R);
+    data->trigger_l     = !gpio_get(PGPIO_BTN_L);
+    data->trigger_zl    = !gpio_get(PGPIO_BTN_ZL);
+    data->trigger_zr    = !gpio_get(PGPIO_BTN_ZR);
 
     data->button_unbind = !gpio_get(PGPIO_BTN_TURBO);
     data->button_safemode = data->button_unbind;

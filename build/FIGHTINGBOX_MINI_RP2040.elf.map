@@ -1847,9 +1847,9 @@ Discarded input sections
                 0x00000000        0xa CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .bss.uart_inst
                 0x00000000        0x4 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
- .text          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccAoj1lp.o
- .data          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccAoj1lp.o
- .bss           0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccAoj1lp.o
+ .text          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccwHJVy2.o
+ .data          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccwHJVy2.o
+ .bss           0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccwHJVy2.o
  .text          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .data          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .bss           0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
@@ -2071,7 +2071,7 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\Mitch\AppData\Local\Temp\ccAoj1lp.o
+ .boot2         0x10000000      0x100 C:\Users\Mitch\AppData\Local\Temp\ccwHJVy2.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -5186,7 +5186,7 @@ LOAD CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_S
 LOAD CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
-LOAD C:\Users\Mitch\AppData\Local\Temp\ccAoj1lp.o
+LOAD C:\Users\Mitch\AppData\Local\Temp\ccwHJVy2.o
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -5379,7 +5379,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000e2a       0x2c CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .ARM.attributes
-                0x00000e56       0x22 C:\Users\Mitch\AppData\Local\Temp\ccAoj1lp.o
+                0x00000e56       0x22 C:\Users\Mitch\AppData\Local\Temp\ccwHJVy2.o
  .ARM.attributes
                 0x00000e78       0x2c c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .ARM.attributes
@@ -5466,245 +5466,245 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .comment       0x00000049       0x4a CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
-.debug_info     0x00000000    0x56073
+.debug_info     0x00000000    0x56078
  .debug_info    0x00000000     0x10ad CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/src/main.c.obj
  .debug_info    0x000010ad     0x21f3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/hoja.c.obj
  .debug_info    0x000032a0     0x1728 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/hoja_settings.c.obj
  .debug_info    0x000049c8      0x238 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/hoja_defines.c.obj
  .debug_info    0x00004c00      0x71b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/hoja_comms.c.obj
- .debug_info    0x0000531b     0x3774 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/rgb.c.obj
- .debug_info    0x00008a8f      0x38e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/battery.c.obj
- .debug_info    0x00008e1d      0x3e3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/reboot.c.obj
- .debug_info    0x00009200      0x1a8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/interval.c.obj
- .debug_info    0x000093a8      0x4e8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/desc_bos.c.obj
- .debug_info    0x00009890     0x1b90 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/hoja_usb.c.obj
- .debug_info    0x0000b420      0xf29 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/xinput_device.c.obj
- .debug_info    0x0000c349     0x17d6 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/ginput_device.c.obj
- .debug_info    0x0000db1f      0x3e5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_analog.c.obj
- .debug_info    0x0000df04     0x1d80 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_commands.c.obj
- .debug_info    0x0000fc84      0xa5b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_spi.c.obj
- .debug_info    0x000106df     0x1aa2 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/imu.c.obj
- .debug_info    0x00012181     0x12b9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/remap.c.obj
- .debug_info    0x0001343a      0xa75 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/snapback.c.obj
- .debug_info    0x00013eaf     0x1ff9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/stick_scaling.c.obj
- .debug_info    0x00015ea8     0x16cd CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/analog.c.obj
- .debug_info    0x00017575      0xb8e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/triggers.c.obj
- .debug_info    0x00018103      0x71c CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/macros.c.obj
- .debug_info    0x0001881f      0xf77 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/gcinput.c.obj
- .debug_info    0x00019796      0xa05 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/gamecube.c.obj
- .debug_info    0x0001a19b      0x5f6 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/n64.c.obj
- .debug_info    0x0001a791      0x4e4 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/nspi.c.obj
- .debug_info    0x0001ac75      0xaa2 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/swpro.c.obj
- .debug_info    0x0001b717     0x2120 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/webusb.c.obj
- .debug_info    0x0001d837      0x7b8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/xinput.c.obj
- .debug_info    0x0001dfef      0x606 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/btinput.c.obj
- .debug_info    0x0001e5f5      0xdd5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/ds4input.c.obj
- .debug_info    0x0001f3ca     0x187e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00020c48      0x1e3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x00020e2b      0x6be CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x000214e9      0x58e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00021a77     0x1c9e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x00023715      0x1a4 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x000238b9     0x20d5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x0002598e      0x2d1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_info    0x00025c5f     0x4068 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x00029cc7     0x13f0 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x0002b0b7     0x123b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x0002c2f2      0xdd2 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x0002d0c4      0xfcf CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x0002e093      0x51b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0002e5ae      0x4ee CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x0002ea9c      0x1d8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x0002ec74     0x1053 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0002fcc7     0x1a5f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00031726       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00031748      0x27c CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x000319c4       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x000319e6       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x00031a08      0x2d1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x00031cd9     0x5586 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_info    0x0003725f       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x00037281       0x26 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x000372a7       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x000372c9      0x2eb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x000375b4     0x5031 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .debug_info    0x0003c5e5       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x0003c607      0x4a6 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_info    0x0003caad       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x0003cacf       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x0003caf1      0x2fb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x0003cdec     0x1827 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x0003e613     0x104f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_info    0x0003f662     0x1d18 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_info    0x0004137a     0x14f6 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
- .debug_info    0x00042870      0x257 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_info    0x00042ac7      0xf3a CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_info    0x00043a01     0x227f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .debug_info    0x00045c80     0x2080 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_info    0x00047d00      0xfe4 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_info    0x00048ce4     0x3c25 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_info    0x0004c909      0x8be CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_info    0x0004d1c7     0x19f3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_info    0x0004ebba     0x160d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_info    0x000501c7     0x1021 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_info    0x000511e8     0x14db CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_info    0x000526c3     0x2851 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_info    0x00054f14     0x115f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+ .debug_info    0x0000531b     0x3779 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/rgb.c.obj
+ .debug_info    0x00008a94      0x38e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/battery.c.obj
+ .debug_info    0x00008e22      0x3e3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/reboot.c.obj
+ .debug_info    0x00009205      0x1a8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/interval.c.obj
+ .debug_info    0x000093ad      0x4e8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/desc_bos.c.obj
+ .debug_info    0x00009895     0x1b90 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/hoja_usb.c.obj
+ .debug_info    0x0000b425      0xf29 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/xinput_device.c.obj
+ .debug_info    0x0000c34e     0x17d6 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/ginput_device.c.obj
+ .debug_info    0x0000db24      0x3e5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_analog.c.obj
+ .debug_info    0x0000df09     0x1d80 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_commands.c.obj
+ .debug_info    0x0000fc89      0xa5b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_spi.c.obj
+ .debug_info    0x000106e4     0x1aa2 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/imu.c.obj
+ .debug_info    0x00012186     0x12b9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/remap.c.obj
+ .debug_info    0x0001343f      0xa75 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/snapback.c.obj
+ .debug_info    0x00013eb4     0x1ff9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/stick_scaling.c.obj
+ .debug_info    0x00015ead     0x16cd CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/analog.c.obj
+ .debug_info    0x0001757a      0xb8e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/triggers.c.obj
+ .debug_info    0x00018108      0x71c CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/macros.c.obj
+ .debug_info    0x00018824      0xf77 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/gcinput.c.obj
+ .debug_info    0x0001979b      0xa05 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/gamecube.c.obj
+ .debug_info    0x0001a1a0      0x5f6 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/n64.c.obj
+ .debug_info    0x0001a796      0x4e4 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/nspi.c.obj
+ .debug_info    0x0001ac7a      0xaa2 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/swpro.c.obj
+ .debug_info    0x0001b71c     0x2120 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/webusb.c.obj
+ .debug_info    0x0001d83c      0x7b8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/xinput.c.obj
+ .debug_info    0x0001dff4      0x606 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/btinput.c.obj
+ .debug_info    0x0001e5fa      0xdd5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/ds4input.c.obj
+ .debug_info    0x0001f3cf     0x187e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x00020c4d      0x1e3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x00020e30      0x6be CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x000214ee      0x58e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x00021a7c     0x1c9e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x0002371a      0x1a4 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x000238be     0x20d5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x00025993      0x2d1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_info    0x00025c64     0x4068 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x00029ccc     0x13f0 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x0002b0bc     0x123b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x0002c2f7      0xdd2 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x0002d0c9      0xfcf CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0002e098      0x51b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0002e5b3      0x4ee CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x0002eaa1      0x1d8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x0002ec79     0x1053 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x0002fccc     0x1a5f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x0003172b       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x0003174d      0x27c CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x000319c9       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x000319eb       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x00031a0d      0x2d1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x00031cde     0x5586 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_info    0x00037264       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x00037286       0x26 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x000372ac       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x000372ce      0x2eb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x000375b9     0x5031 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .debug_info    0x0003c5ea       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x0003c60c      0x4a6 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_info    0x0003cab2       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x0003cad4       0x22 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x0003caf6      0x2fb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x0003cdf1     0x1827 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x0003e618     0x104f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_info    0x0003f667     0x1d18 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_info    0x0004137f     0x14f6 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+ .debug_info    0x00042875      0x257 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_info    0x00042acc      0xf3a CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_info    0x00043a06     0x227f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_info    0x00045c85     0x2080 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_info    0x00047d05      0xfe4 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_info    0x00048ce9     0x3c25 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_info    0x0004c90e      0x8be CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_info    0x0004d1cc     0x19f3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_info    0x0004ebbf     0x160d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_info    0x000501cc     0x1021 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_info    0x000511ed     0x14db CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_info    0x000526c8     0x2851 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_info    0x00054f19     0x115f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
-.debug_abbrev   0x00000000     0xe06e
+.debug_abbrev   0x00000000     0xe075
  .debug_abbrev  0x00000000      0x33d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/src/main.c.obj
  .debug_abbrev  0x0000033d      0x49f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/hoja.c.obj
  .debug_abbrev  0x000007dc      0x442 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/hoja_settings.c.obj
  .debug_abbrev  0x00000c1e       0xc2 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/hoja_defines.c.obj
  .debug_abbrev  0x00000ce0      0x205 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/hoja_comms.c.obj
- .debug_abbrev  0x00000ee5      0x6d4 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/rgb.c.obj
- .debug_abbrev  0x000015b9      0x1b1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/battery.c.obj
- .debug_abbrev  0x0000176a      0x1d3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/reboot.c.obj
- .debug_abbrev  0x0000193d       0xd5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/interval.c.obj
- .debug_abbrev  0x00001a12      0x160 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/desc_bos.c.obj
- .debug_abbrev  0x00001b72      0x509 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/hoja_usb.c.obj
- .debug_abbrev  0x0000207b      0x3eb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/xinput_device.c.obj
- .debug_abbrev  0x00002466      0x46a CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/ginput_device.c.obj
- .debug_abbrev  0x000028d0      0x183 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_analog.c.obj
- .debug_abbrev  0x00002a53      0x4af CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_commands.c.obj
- .debug_abbrev  0x00002f02      0x22f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_spi.c.obj
- .debug_abbrev  0x00003131      0x403 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/imu.c.obj
- .debug_abbrev  0x00003534      0x333 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/remap.c.obj
- .debug_abbrev  0x00003867      0x254 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/snapback.c.obj
- .debug_abbrev  0x00003abb      0x3e9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/stick_scaling.c.obj
- .debug_abbrev  0x00003ea4      0x3dd CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/analog.c.obj
- .debug_abbrev  0x00004281      0x247 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/triggers.c.obj
- .debug_abbrev  0x000044c8      0x26f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/macros.c.obj
- .debug_abbrev  0x00004737      0x2ba CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/gcinput.c.obj
- .debug_abbrev  0x000049f1      0x1da CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/gamecube.c.obj
- .debug_abbrev  0x00004bcb      0x14d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/n64.c.obj
- .debug_abbrev  0x00004d18      0x156 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/nspi.c.obj
- .debug_abbrev  0x00004e6e      0x1fa CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/swpro.c.obj
- .debug_abbrev  0x00005068      0x45d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/webusb.c.obj
- .debug_abbrev  0x000054c5      0x223 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/xinput.c.obj
- .debug_abbrev  0x000056e8      0x20f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/btinput.c.obj
- .debug_abbrev  0x000058f7      0x2f0 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/ds4input.c.obj
- .debug_abbrev  0x00005be7      0x379 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x00005f60       0xeb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_abbrev  0x0000604b      0x2e9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_abbrev  0x00006334      0x21b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x0000654f      0x4e7 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x00006a36      0x116 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x00006b4c      0x397 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x00006ee3      0x1aa CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_abbrev  0x0000708d      0x571 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- .debug_abbrev  0x000075fe      0x3b8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x000079b6      0x297 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_abbrev  0x00007c4d      0x31c CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_abbrev  0x00007f69      0x3c7 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x00008330      0x1ea CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x0000851a      0x1a8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_abbrev  0x000086c2      0x109 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x000087cb      0x4cb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x00008c96      0x384 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x0000901a       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x0000902c      0x13b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x00009167       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_abbrev  0x00009179       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_abbrev  0x0000918b      0x179 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_abbrev  0x00009304      0x2e3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_abbrev  0x000095e7       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_abbrev  0x000095f9       0x14 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x0000960d       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_abbrev  0x0000961f      0x18c CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_abbrev  0x000097ab      0x2bb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .debug_abbrev  0x00009a66       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_abbrev  0x00009a78      0x1cf CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_abbrev  0x00009c47       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x00009c59       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_abbrev  0x00009c6b       0xad CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_abbrev  0x00009d18      0x4a5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x0000a1bd      0x3e8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_abbrev  0x0000a5a5      0x49f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_abbrev  0x0000aa44      0x47e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
- .debug_abbrev  0x0000aec2      0x163 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_abbrev  0x0000b025      0x2b6 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_abbrev  0x0000b2db      0x483 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .debug_abbrev  0x0000b75e      0x4ff CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_abbrev  0x0000bc5d      0x40d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_abbrev  0x0000c06a      0x561 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_abbrev  0x0000c5cb      0x309 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_abbrev  0x0000c8d4      0x45f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_abbrev  0x0000cd33      0x3d3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_abbrev  0x0000d106      0x354 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_abbrev  0x0000d45a      0x41c CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_abbrev  0x0000d876      0x437 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_abbrev  0x0000dcad      0x3c1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+ .debug_abbrev  0x00000ee5      0x6db CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/rgb.c.obj
+ .debug_abbrev  0x000015c0      0x1b1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/battery.c.obj
+ .debug_abbrev  0x00001771      0x1d3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/reboot.c.obj
+ .debug_abbrev  0x00001944       0xd5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/interval.c.obj
+ .debug_abbrev  0x00001a19      0x160 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/desc_bos.c.obj
+ .debug_abbrev  0x00001b79      0x509 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/hoja_usb.c.obj
+ .debug_abbrev  0x00002082      0x3eb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/xinput_device.c.obj
+ .debug_abbrev  0x0000246d      0x46a CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/ginput_device.c.obj
+ .debug_abbrev  0x000028d7      0x183 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_analog.c.obj
+ .debug_abbrev  0x00002a5a      0x4af CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_commands.c.obj
+ .debug_abbrev  0x00002f09      0x22f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_spi.c.obj
+ .debug_abbrev  0x00003138      0x403 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/imu.c.obj
+ .debug_abbrev  0x0000353b      0x333 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/remap.c.obj
+ .debug_abbrev  0x0000386e      0x254 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/snapback.c.obj
+ .debug_abbrev  0x00003ac2      0x3e9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/stick_scaling.c.obj
+ .debug_abbrev  0x00003eab      0x3dd CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/analog.c.obj
+ .debug_abbrev  0x00004288      0x247 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/triggers.c.obj
+ .debug_abbrev  0x000044cf      0x26f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/macros.c.obj
+ .debug_abbrev  0x0000473e      0x2ba CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/gcinput.c.obj
+ .debug_abbrev  0x000049f8      0x1da CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/gamecube.c.obj
+ .debug_abbrev  0x00004bd2      0x14d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/n64.c.obj
+ .debug_abbrev  0x00004d1f      0x156 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/nspi.c.obj
+ .debug_abbrev  0x00004e75      0x1fa CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/swpro.c.obj
+ .debug_abbrev  0x0000506f      0x45d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/webusb.c.obj
+ .debug_abbrev  0x000054cc      0x223 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/xinput.c.obj
+ .debug_abbrev  0x000056ef      0x20f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/btinput.c.obj
+ .debug_abbrev  0x000058fe      0x2f0 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/ds4input.c.obj
+ .debug_abbrev  0x00005bee      0x379 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x00005f67       0xeb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_abbrev  0x00006052      0x2e9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x0000633b      0x21b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x00006556      0x4e7 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x00006a3d      0x116 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x00006b53      0x397 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x00006eea      0x1aa CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_abbrev  0x00007094      0x571 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x00007605      0x3b8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x000079bd      0x297 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_abbrev  0x00007c54      0x31c CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_abbrev  0x00007f70      0x3c7 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x00008337      0x1ea CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x00008521      0x1a8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_abbrev  0x000086c9      0x109 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x000087d2      0x4cb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x00008c9d      0x384 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x00009021       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x00009033      0x13b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x0000916e       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_abbrev  0x00009180       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_abbrev  0x00009192      0x179 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_abbrev  0x0000930b      0x2e3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_abbrev  0x000095ee       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_abbrev  0x00009600       0x14 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x00009614       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_abbrev  0x00009626      0x18c CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_abbrev  0x000097b2      0x2bb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .debug_abbrev  0x00009a6d       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_abbrev  0x00009a7f      0x1cf CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_abbrev  0x00009c4e       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x00009c60       0x12 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_abbrev  0x00009c72       0xad CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_abbrev  0x00009d1f      0x4a5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x0000a1c4      0x3e8 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_abbrev  0x0000a5ac      0x49f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_abbrev  0x0000aa4b      0x47e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+ .debug_abbrev  0x0000aec9      0x163 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_abbrev  0x0000b02c      0x2b6 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_abbrev  0x0000b2e2      0x483 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_abbrev  0x0000b765      0x4ff CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_abbrev  0x0000bc64      0x40d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_abbrev  0x0000c071      0x561 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_abbrev  0x0000c5d2      0x309 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_abbrev  0x0000c8db      0x45f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_abbrev  0x0000cd3a      0x3d3 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_abbrev  0x0000d10d      0x354 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_abbrev  0x0000d461      0x41c CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_abbrev  0x0000d87d      0x437 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_abbrev  0x0000dcb4      0x3c1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
-.debug_loc      0x00000000    0x3542a
+.debug_loc      0x00000000    0x3543c
  .debug_loc     0x00000000      0x1da CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/src/main.c.obj
  .debug_loc     0x000001da      0x5e1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/hoja.c.obj
  .debug_loc     0x000007bb      0x691 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/hoja_settings.c.obj
  .debug_loc     0x00000e4c       0xca CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/hoja_comms.c.obj
- .debug_loc     0x00000f16     0x185f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/rgb.c.obj
- .debug_loc     0x00002775       0xb2 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/battery.c.obj
- .debug_loc     0x00002827       0xae CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/reboot.c.obj
- .debug_loc     0x000028d5      0x187 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/interval.c.obj
- .debug_loc     0x00002a5c     0x1009 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/hoja_usb.c.obj
- .debug_loc     0x00003a65      0x52d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/xinput_device.c.obj
- .debug_loc     0x00003f92      0xd66 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/ginput_device.c.obj
- .debug_loc     0x00004cf8       0xb9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_analog.c.obj
- .debug_loc     0x00004db1      0xf5d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_commands.c.obj
- .debug_loc     0x00005d0e      0x9be CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_spi.c.obj
- .debug_loc     0x000066cc      0x515 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/imu.c.obj
- .debug_loc     0x00006be1      0x346 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/remap.c.obj
- .debug_loc     0x00006f27      0x79e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/snapback.c.obj
- .debug_loc     0x000076c5     0x1275 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/stick_scaling.c.obj
- .debug_loc     0x0000893a      0x42b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/analog.c.obj
- .debug_loc     0x00008d65      0x1cb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/triggers.c.obj
- .debug_loc     0x00008f30       0x7e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/macros.c.obj
- .debug_loc     0x00008fae      0x1e1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/gcinput.c.obj
- .debug_loc     0x0000918f       0x57 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/swpro.c.obj
- .debug_loc     0x000091e6      0x434 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/webusb.c.obj
- .debug_loc     0x0000961a       0xe0 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/xinput.c.obj
- .debug_loc     0x000096fa       0x25 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/btinput.c.obj
- .debug_loc     0x0000971f       0xdd CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/ds4input.c.obj
- .debug_loc     0x000097fc     0x1237 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x0000aa33       0xe9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x0000ab1c      0x45f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x0000af7b      0x233 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x0000b1ae     0x13f5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x0000c5a3       0x60 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x0000c603     0x152e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x0000db31       0xf5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_loc     0x0000dc26     0x31e5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x00010e0b      0xacb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x000118d6     0x1446 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x00012d1c      0x83b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_loc     0x00013557      0x832 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x00013d89      0x310 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x00014099      0x2ec CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x00014385       0x71 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x000143f6      0x674 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x00014a6a     0x2095 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x00016aff      0x1a1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x00016ca0       0x59 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x00016cf9     0x7f1a CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_loc     0x0001ec13       0x73 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x0001ec86     0x6167 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .debug_loc     0x00024ded      0x2dc CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_loc     0x000250c9      0xe23 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x00025eec      0x888 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_loc     0x00026774      0xf93 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_loc     0x00027707      0xa71 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
- .debug_loc     0x00028178       0xff CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_loc     0x00028277      0x909 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_loc     0x00028b80     0x1ca7 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .debug_loc     0x0002a827      0xebe CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_loc     0x0002b6e5      0x7a9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_loc     0x0002be8e     0x2456 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_loc     0x0002e2e4      0x4de CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_loc     0x0002e7c2     0x11d4 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_loc     0x0002f996     0x1195 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_loc     0x00030b2b      0x8eb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_loc     0x00031416      0xe2f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_loc     0x00032245     0x2b8e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_loc     0x00034dd3      0x657 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+ .debug_loc     0x00000f16     0x1871 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/rgb.c.obj
+ .debug_loc     0x00002787       0xb2 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/battery.c.obj
+ .debug_loc     0x00002839       0xae CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/reboot.c.obj
+ .debug_loc     0x000028e7      0x187 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/utilities/interval.c.obj
+ .debug_loc     0x00002a6e     0x1009 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/hoja_usb.c.obj
+ .debug_loc     0x00003a77      0x52d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/xinput_device.c.obj
+ .debug_loc     0x00003fa4      0xd66 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/usb/ginput_device.c.obj
+ .debug_loc     0x00004d0a       0xb9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_analog.c.obj
+ .debug_loc     0x00004dc3      0xf5d CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_commands.c.obj
+ .debug_loc     0x00005d20      0x9be CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/switch/switch_spi.c.obj
+ .debug_loc     0x000066de      0x515 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/imu.c.obj
+ .debug_loc     0x00006bf3      0x346 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/remap.c.obj
+ .debug_loc     0x00006f39      0x79e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/snapback.c.obj
+ .debug_loc     0x000076d7     0x1275 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/stick_scaling.c.obj
+ .debug_loc     0x0000894c      0x42b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/analog.c.obj
+ .debug_loc     0x00008d77      0x1cb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/triggers.c.obj
+ .debug_loc     0x00008f42       0x7e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/input/macros.c.obj
+ .debug_loc     0x00008fc0      0x1e1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/gcinput.c.obj
+ .debug_loc     0x000091a1       0x57 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/swpro.c.obj
+ .debug_loc     0x000091f8      0x434 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/webusb.c.obj
+ .debug_loc     0x0000962c       0xe0 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/xinput.c.obj
+ .debug_loc     0x0000970c       0x25 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/btinput.c.obj
+ .debug_loc     0x00009731       0xdd CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/ds4input.c.obj
+ .debug_loc     0x0000980e     0x1237 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x0000aa45       0xe9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x0000ab2e      0x45f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x0000af8d      0x233 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x0000b1c0     0x13f5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x0000c5b5       0x60 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x0000c615     0x152e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x0000db43       0xf5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_loc     0x0000dc38     0x31e5 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x00010e1d      0xacb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x000118e8     0x1446 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x00012d2e      0x83b CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_loc     0x00013569      0x832 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x00013d9b      0x310 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x000140ab      0x2ec CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x00014397       0x71 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x00014408      0x674 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x00014a7c     0x2095 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x00016b11      0x1a1 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x00016cb2       0x59 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x00016d0b     0x7f1a CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_loc     0x0001ec25       0x73 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x0001ec98     0x6167 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .debug_loc     0x00024dff      0x2dc CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_loc     0x000250db      0xe23 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x00025efe      0x888 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_loc     0x00026786      0xf93 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_loc     0x00027719      0xa71 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+ .debug_loc     0x0002818a       0xff CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_loc     0x00028289      0x909 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_loc     0x00028b92     0x1ca7 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_loc     0x0002a839      0xebe CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_loc     0x0002b6f7      0x7a9 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_loc     0x0002bea0     0x2456 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_loc     0x0002e2f6      0x4de CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_loc     0x0002e7d4     0x11d4 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_loc     0x0002f9a8     0x1195 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_loc     0x00030b3d      0x8eb CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_loc     0x00031428      0xe2f CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_loc     0x00032257     0x2b8e CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_loc     0x00034de5      0x657 CMakeFiles/FIGHTINGBOX_MINI_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
 .debug_aranges  0x00000000     0x2510
  .debug_aranges
