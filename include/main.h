@@ -36,6 +36,3 @@
 
 #define PGPIO_BTN_STICKR 13
 #define PGPIO_BTN_STICKL 9
-
-#define PGPIO_I2C_SDA 14
-#define PGPIO_I2C_SCL 15
