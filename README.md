@@ -1,1 +1,1 @@
-# HOJA-Fightingbox-Mini
+# HOJA-ThingamaPro
