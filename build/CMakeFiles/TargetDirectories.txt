@@ -172,3 +172,9 @@ C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/HOJA-LIB-RP2040/CMakeFil
 C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/HOJA-LIB-RP2040/CMakeFiles/hoja_lib_joybus_pio_h.dir
 C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/HOJA-LIB-RP2040/CMakeFiles/edit_cache.dir
 C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/HOJA-LIB-RP2040/CMakeFiles/rebuild_cache.dir
+C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/ssd1306/CMakeFiles/pico_ssd1306.dir
+C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/ssd1306/CMakeFiles/edit_cache.dir
+C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/ssd1306/CMakeFiles/rebuild_cache.dir
+C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/ssd1306/textRenderer/CMakeFiles/ssd1306_textRenderer.dir
+C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/ssd1306/textRenderer/CMakeFiles/edit_cache.dir
+C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/ssd1306/textRenderer/CMakeFiles/rebuild_cache.dir

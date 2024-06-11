@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/pico-sdk/cmake_install.cmake")
   include("C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/HOJA-LIB-RP2040/cmake_install.cmake")
+  include("C:/Users/Mitch/GitRepos/HOJA-Fightingbox-Mini/build/lib/ssd1306/cmake_install.cmake")
 
 endif()
 

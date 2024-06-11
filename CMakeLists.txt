@@ -14,13 +14,12 @@ add_subdirectory(lib/hoja-lib-rp2040)
 
 include_directories(
 	include
-	lib/SSDK1306/lib
+	lib/ssd1306/
 )
 
 add_executable(${PROJECT_NAME}
 	src/main.c
-	src/display.c
-	lib/SSDK1306/lib/ssd1306.c 
+	src/display.cpp
 )
 
 target_compile_definitions(${PROJECT_NAME}
@@ -30,7 +29,7 @@ target_compile_definitions(${PROJECT_NAME}
 	#PICO_FLASH_SPI_CLKDIV=8
 	)
 
-
+add_subdirectory(lib/ssd1306)
 target_link_libraries(${PROJECT_NAME}
 PRIVATE
 hoja_lib
@@ -52,6 +51,7 @@ hardware_timer
 
 tinyusb_device
 tinyusb_board
+pico_ssd1306
 )
 
 pico_enable_stdio_usb(${PROJECT_NAME} 0)

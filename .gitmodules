@@ -1,3 +1,6 @@
 [submodule "lib/HOJA-LIB-RP2040"]
 	path = lib/HOJA-LIB-RP2040
 	url = https://github.com/HandHeldLegend/HOJA-LIB-RP2040
+[submodule "lib/ssd1306"]
+	path = lib/ssd1306
+	url = https://github.com/HandHeldLegend/pico-ssd1306
