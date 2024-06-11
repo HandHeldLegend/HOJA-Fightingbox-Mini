@@ -1,15 +1,10 @@
-#define PGPIO_I2C_SDA 14
-#define PGPIO_I2C_SCL 15
+#ifndef DISPLAY_PROJ_H
+#define DISPLAY_PROJ_H
 
 #include <stdint.h>
+#include "ssd1306.h"
+#include <stdbool.h>
+void display_init();
+void display_task(uint32_t timestamp);
 
-bool display_init_0k = false;
-
-void display_task(uint32_t timestamp)
-{
-    if(!display_init_0k)
-    {
-        display_init_0k = true;
-        return;
-    }
-}
+#endif

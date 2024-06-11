@@ -14,11 +14,13 @@ add_subdirectory(lib/hoja-lib-rp2040)
 
 include_directories(
 	include
+	lib/SSDK1306/lib
 )
 
 add_executable(${PROJECT_NAME}
 	src/main.c
 	src/display.c
+	lib/SSDK1306/lib/ssd1306.c 
 )
 
 target_compile_definitions(${PROJECT_NAME}

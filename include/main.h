@@ -27,8 +27,6 @@
 
 #define PGPIO_BTN_TURBO   18
 
-
-
 #define PGPIO_BTN_DUP     29
 #define PGPIO_BTN_DDOWN   27
 #define PGPIO_BTN_DLEFT   28

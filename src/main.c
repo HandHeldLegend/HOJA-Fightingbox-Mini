@@ -1,6 +1,6 @@
 #include "hoja_includes.h"
 #include "main.h"
-
+#include "display.h"
 
 button_remap_s user_map = {
     .dpad_up = MAPCODE_DUP,
@@ -94,6 +94,11 @@ void cb_hoja_read_analog(a_data_s *data)
     data->ly = 2048;
     data->rx = 2048;
     data->ry = 2048;
+}
+
+void cb_hoja_task_0_hook(uint32_t timestamp)
+{
+    display_task(timestamp);
 }
 
 int main()

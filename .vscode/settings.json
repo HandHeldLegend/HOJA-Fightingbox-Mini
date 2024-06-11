@@ -1,5 +1,10 @@
 {
     "files.associations": {
-        "main.h": "c"
+        "main.h": "c",
+        "hoja.h": "c",
+        "hoja_includes.h": "c",
+        "i2c.h": "c",
+        "ssd1306.h": "c",
+        "display.h": "c"
     }
 }
